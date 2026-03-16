@@ -70,3 +70,16 @@ body {
     cursor: pointer;
     font-size: 16px;
 }
+
+.bottom-container {
+    padding: 15px 10px 0;
+}
+
+.conversion-result {
+    background-color: #f6f6f6;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+}
+
