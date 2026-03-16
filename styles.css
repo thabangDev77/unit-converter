@@ -36,6 +36,10 @@ body {
     gap: 20px; 
 }
 
+.top-container h1 {
+    font-size: 1.75rem;
+}
+
 .input-container {
     display: flex;
     flex-direction: column;
@@ -44,6 +48,7 @@ body {
     gap: 20px;
     margin-top: 20px;
 }
+
 
 #inputValue {
     padding: 5px 10px;
