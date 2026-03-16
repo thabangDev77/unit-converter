@@ -16,9 +16,22 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px #ab12121a;
     width: 600px;
     border: 3px solid #dc73731a;
+    text-align: center;
+}
+
+.top-container {
+    background-color: rgb(108, 108, 191);
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; 
 }
