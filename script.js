@@ -16,3 +16,8 @@ const convertBtn = document.getElementById("convertBtn")
 const lengthContainer = document.getElementById("lengthResult")
 const volumeContainer = document.getElementById("volumeResult")
 const massContainer = document.getElementById("massResult")
+
+convertBtn.addEventListener("click", function() {
+    console.log("clicked")
+    console.log(inputValue.value * 3)
+})
