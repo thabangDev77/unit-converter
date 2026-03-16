@@ -24,7 +24,7 @@ body {
 }
 
 .top-container {
-    background-color: rgb(108, 108, 191);
+    background-color: #6c6cbf;
     padding: 30px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -47,12 +47,14 @@ body {
 
 #inputValue {
     padding: 5px 10px;
-    border: 2px solid #dc73731a;
+    border: 2px solid #fff;
     border-radius: 5px;
     font-size: 60px;
     field-sizing: content;
     min-width: 80px;
     max-width: 200px;
+    background-color: #6c6cbf;
+    color: #fff;
 }
 
 #convertBtn {
