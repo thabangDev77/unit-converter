@@ -7,23 +7,26 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <section class="top-container">
-            <h1>Metric/Imperial Unit Converter</h1>
-            <div class="input-container">
-                <input type="number" id="inputValue" placeholder="Value" />
-                <button id="convertBtn">Convert</button>
-            </div>
-        </section>
-        <section class="bottom-container">
-            <div class="conversion-result" id="lengthResult">
-                <h2>Length(Meter/Feet)</h2>
-            </div>
-            <div class="conversion-result" id="volumeResult">
-                <h2>Volume(Liter/Gallons)</h2>
-            </div>
-            <div class="conversion-result" id="massResult">
-                <h2>Mass(Kilograms/Pounds)</h2>
-            </div>
-        </section>
+        <main class="container">
+            <section class="top-container">
+                <h1>Metric/Imperial Unit Converter</h1>
+                <div class="input-container">
+                    <input type="number" id="inputValue" placeholder="Value" />
+                    <button id="convertBtn">Convert</button>
+                </div>
+            </section>
+            <section class="bottom-container">
+                <div class="conversion-result" id="lengthResult">
+                    <h2>Length(Meter/Feet)</h2>
+                </div>
+                <div class="conversion-result" id="volumeResult">
+                    <h2>Volume(Liter/Gallons)</h2>
+                </div>
+                <div class="conversion-result" id="massResult">
+                    <h2>Mass(Kilograms/Pounds)</h2>
+                </div>
+            </section>
+        </main>
+        <script src="./script.js"></script>
     </body>
 </html>
