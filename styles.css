@@ -71,6 +71,11 @@ body {
     font-size: 16px;
 }
 
+#convertBtn:hover {
+    background-color: #dc7373;
+    color: #fff;
+}
+
 .bottom-container {
     padding: 15px 10px 0;
 }
